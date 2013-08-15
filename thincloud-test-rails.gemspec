@@ -17,13 +17,11 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "rails",                   "~> 3.2.12"
+  gem.add_dependency "rails",                   "~> 4.0.0"
   gem.add_dependency "capybara",                "~> 2.0.2"
-  gem.add_dependency "database_cleaner",        "~> 0.9.1"
+  gem.add_dependency "database_cleaner",        "1.0.1"
   gem.add_dependency "factory_girl_rails",      "~> 4.2.1"
   gem.add_dependency "minitest-rails",          "~> 0.5.0"
-  gem.add_dependency "minitest-rails-shoulda",  "~> 0.4.0"
   gem.add_dependency "minitest-rails-capybara", "~> 0.5.1"
-  gem.add_dependency "shoulda-matchers",        "1.4.1" # 1.4.2 requires mocha 0.10
-  gem.add_dependency "thincloud-test",          "~> 1.0.0"
+  gem.add_dependency "thincloud-test",          "~> 2.0.0.alpha"
 end

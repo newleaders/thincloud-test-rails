@@ -21,13 +21,17 @@ Opinionated testing framework dependencies and configuration for Rails applicati
 
 This gem has been tested against the following Ruby versions:
 
-* 1.9.3
+* 2.0.0
+
+TODO: also support 1.9.3
 
 ### Rails
 
-This gem requires Rails 3.2.11+ and has been tested on the following versions:
+This gem requires Rails 4.0.0 and has been tested on the following versions:
 
-* 3.2
+* 4.0.0
+
+TODO: also support 3.2+
 
 
 ## Installation
