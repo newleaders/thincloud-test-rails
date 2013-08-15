@@ -22,8 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "database_cleaner",        "~> 0.9.1"
   gem.add_dependency "factory_girl_rails",      "~> 4.2.1"
   gem.add_dependency "minitest-rails",          "~> 0.5.0"
-  gem.add_dependency "minitest-rails-shoulda",  "~> 0.4.0"
   gem.add_dependency "minitest-rails-capybara", "~> 0.5.1"
-  gem.add_dependency "shoulda-matchers",        "1.4.1" # 1.4.2 requires mocha 0.10
   gem.add_dependency "thincloud-test",          "~> 1.0.0"
 end
