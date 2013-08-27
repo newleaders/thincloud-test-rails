@@ -33,9 +33,10 @@ require "thincloud/test/rails/railtie"\n\n
 
     def setup_minitest_rails
       generate "mini_test:install"
-      remove_file "test/minitest_helper.rb"
 
-      copy_file "minitest_helper.rb", "test/minitest_helper.rb"
+      remove_file "test/test_helper.rb"
+
+      copy_file "test_helper.rb", "test/test_helper.rb"
 
       empty_directory "test/factories"
       create_file "test/factories/.gitkeep"
