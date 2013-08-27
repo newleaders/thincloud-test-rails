@@ -6,7 +6,7 @@ module Thincloud
     source_root File.expand_path("../templates", __FILE__)
 
     def thincloud_test_init
-      ::Thincloud::Test::TestGenerator.new.testify!(minitest: false)
+      ::Thincloud::Test::TestGenerator.new.testify!
     end
 
     desc "Generates thincloud test infrastructure."
