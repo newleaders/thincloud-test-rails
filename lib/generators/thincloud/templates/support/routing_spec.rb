@@ -1,4 +1,4 @@
-class RoutingSpec < MiniTest::Rails::ActiveSupport::TestCase
+class RoutingSpec < ActiveSupport::TestCase
   include ::ActionDispatch::Assertions::RoutingAssertions
   include ::Rails.application.routes.url_helpers
 
