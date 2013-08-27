@@ -6,11 +6,9 @@ Opinionated testing framework dependencies and configuration for Rails applicati
 
 [New Leaders](https://newleaders.com) uses this gem to manage the following dependencies:
 
-* [capybara](https://github.com/jnicklas/capybara)
 * [database_cleaner](https://github.com/bmabey/database_cleaner)
 * [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
 * [minitest-rails](https://github.com/blowmage/minitest-rails)
-* [minitest-rails-capybara](https://github.com/blowmage/minitest-rails-capybara)
 * [minitest-rails-shoulda](https://github.com/bousquet/minitest-rails-shoulda)
 * [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers)
 

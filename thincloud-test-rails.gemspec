@@ -18,10 +18,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "rails",                   "~> 4.0.0"
-  gem.add_dependency "capybara",                "~> 2.0.2"
   gem.add_dependency "database_cleaner",        "1.0.1"
   gem.add_dependency "factory_girl_rails",      "~> 4.2.1"
   gem.add_dependency "minitest-rails",          "~> 0.9.2"
-  gem.add_dependency "minitest-rails-capybara", "~> 0.10.0"
   gem.add_dependency "thincloud-test",          "~> 2.0.0.alpha"
 end
