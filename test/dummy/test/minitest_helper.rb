@@ -25,12 +25,3 @@ require "mocha/setup"
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 Dir[File.join("./test/support/**/*.rb")].sort.each { |f| require f }
-
-class MiniTest::Rails::ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.(yml|csv) for all tests in alphabetical order.
-  # fixtures :all
-
-  # Add more helper methods to be used by all tests here...
-end
-
-MiniTest::Rails.override_testunit!

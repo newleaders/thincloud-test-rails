@@ -1,8 +1,12 @@
-class MiniTest::Rails::ActiveSupport::TestCase
-  # Register any classes that respond to validate to a specific test class
-  Minitest::Spec.register_spec_type(self) do |desc|
-    desc.respond_to?(:validate)
-  end
-end
+class ActiveSupport::TestCase
+  ActiveRecord::Migration.check_pending!
 
-MiniTest::Rails.override_testunit!
+  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
+  #
+  # Note: You'll currently still have to declare fixtures explicitly in integration tests
+  # -- they do not yet inherit this setting
+  # fixtures :all
+
+  # Add more helper methods to be used by all tests here...
+  extend MiniTest::Spec::DSL
+end
