@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "rails",                   "~> 4.1.0.beta1"
-  gem.add_dependency "database_cleaner",        "1.0.1"
-  gem.add_dependency "factory_girl_rails",      "~> 4.2.1"
-  # gem.add_dependency "minitest-rails",          "~> 1.0.0.beta3"
+  gem.add_dependency "rails",                   "~> 4.1.0"
+  gem.add_dependency "database_cleaner",        "~> 1.2.0"
+  gem.add_dependency "factory_girl_rails",      "~> 4.4.1"
+  gem.add_dependency "minitest-rails",          "~> 2.0.0.beta"
   gem.add_dependency "thincloud-test",          "~> 2.0.0.alpha"
 end
